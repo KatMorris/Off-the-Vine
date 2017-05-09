@@ -472,6 +472,11 @@ main {
       width: 0 auto;
 }
 
+.listoftaste li {
+ background-color: gray
+ color: white;
+}
+
 .content {
   padding: 0.2em;
   margin: auto;
@@ -599,7 +604,7 @@ h2 {
 h3 {
   font-family: 'Baskerville', serif;
   color: #c4b12f;
-  padding-left: 1em;
+
   padding-top: 1em;
 }
 
@@ -611,7 +616,25 @@ h4 {
   padding-left: 1em;
 }
 
+h5 {
+  text-transform: uppercase;
+  font-family: 'Comfortaa', 'Futura', sans-serif;
+  color: #c4b12f;
+  font-size: 2em;
+  padding-bottom: .5em;
+  border-bottom: 3px solid gray;
+}
 
+
+
+.hours1 {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.italics {
+  font-style: italic;
+  font-size: .7em;
+}
 
 .email a{
   color: white;
@@ -923,6 +946,9 @@ main {
   margin: 0 auto;
 }
 
+p {
+  margin-left: 0;
+}
 
 
 /* Set a specific color for each brand */
