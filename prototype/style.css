@@ -471,6 +471,7 @@ main {
       margin: 0;
       width: 0 auto;
 }
+
 .content {
   padding: 0.2em;
   margin: auto;
@@ -493,6 +494,8 @@ li {
 .headline {
   font-size: 1.2em;
   font-weight: bold;
+  line-height: 1.3em;
+  color: #9b1f60;
 }
 
 
@@ -505,9 +508,9 @@ nav {
 
 .nav {
   margin: 0
-  text-align: center;
   padding: 0;
   text-align: center
+
 }
 
 
@@ -515,6 +518,7 @@ nav {
     line-height: 3em;
     width: 100%;
     text-decoration: none;
+    margin-left: -40px;
 }
 
 
@@ -558,6 +562,7 @@ nav li {
 a {
   color: black;
   text-decoration: none;
+  cursor: pointer;
 }
 
 
@@ -574,6 +579,8 @@ footer {
   padding-bottom: 25px;
   padding-top: 25px;
   text-align: center;
+  border-top: solid gray 8px;
+  margin-top: 5em;
 }
 
 
@@ -583,7 +590,7 @@ h2 {
   border-bottom: 3px solid #c4b12f;
 	color: black;
 	padding-bottom: .25em;
-  padding-left: 1em;
+
 }
 
 
@@ -602,9 +609,7 @@ h4 {
   padding-left: 1em;
 }
 
-.wine1 {
 
-}
 
 .email a{
   color: white;
@@ -625,18 +630,18 @@ h4 {
 }
 
 
-/* Add a hover effect if you want */
+
 .fa:hover :focus {
     opacity: 0.7;
 }
 
 
 .hours {
-  font-weight: bold;
   color: white;
   background: gray;
   padding-top: 1.5em;
   padding-bottom: 1.5em;
+  font-family: 'Baskerville', serif;
 }
 
 .hours li {
@@ -662,6 +667,89 @@ h4 {
 
 }
 
+.content {
+  width: 70%;
+}
+
+blockquote {
+  margin: auto;
+  text-align: center;
+  padding-top: 3em;
+  padding-bottom: 1.5em;
+  font-style: italic;
+  font-size: 1.1em;
+}
+
+
+.quotebottom {
+  font-style: italic;
+  font-size: 1.3em;
+  font-family: 'Baskerville', serif;
+  margin: auto;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1.3em;
+  line-height: 1.5em;
+  border-top: solid gray 2px;
+  border-bottom: solid gray 2px;
+  margin-top: 2em;
+  margin-bottom: 1.7em;
+}
+
+
+figcaption {
+  margin-top: 1.2em;
+  font-size: .9em;
+  font-family: 'Baskerville', serif;
+  text-align: center;
+  color: gray;
+  margin-bottom: 1.5em;
+}
+
+.buy {
+  border-radius: 3px;
+  background-color: #9b1f60;
+  color: white;
+  font-family: 'Baskerville', serif;
+  padding-top: .75em;
+  padding-right: 1em;
+  padding-bottom: .75em;
+  padding-left: 1em;
+  margin-right: 2em;
+
+}
+
+.buy:hover {
+  color: #c4b12f;
+  font-weight: normal;
+  }
+
+.logothing {
+ max-width: 75px;
+ margin: auto;
+display: block;
+ }
+
+ form {
+   margin-left: 25px;
+   font-size: .75em;
+   margin-top: 2em;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width: 900px) {
 
@@ -673,6 +761,7 @@ h4 {
 
     margin: 0;
 }
+
 }
 
 /* Ensures that Flickity waits until CSS has loaded to calculate the height of the cells */
@@ -688,25 +777,53 @@ h4 {
     font-size: .8em;
     padding-left: 2em;
     padding-right: 2em;
+    line-height: 1.5em;
+
   }
+
+
 
 
   .headline {
     font-size: 1em;
     font-weight: bold;
-    padding-bottom: 2em;
+    padding-bottom: 1.5em;
+    line-height: 1.3em;
   }
+
+  .content {
+    width: 90%;
+  }
+
+  .quotebottom {
+    font-size: 1em;
+  }
+
+
+
+
 }
 
+
+
+
 @media screen and (min-width: 600px) {
+
   nav li {
     display: inline-block;
     text-align: center;
+    margin-right: 1.5em;
+    margin-left: 40px;
   }
+
   .left {
     display: block;
   }
-}
+
+
+
+
+
 
 .boxes {
 	display: flex;
@@ -723,11 +840,10 @@ h4 {
     box-shadow: 5px solid black;
   }
 
-.buy {
-  border-radius: 3px;
 
 
 }
+
 
 .stars {
   width: 200px;
@@ -745,24 +861,53 @@ h4 {
 		width: 70%;
 
 	}
-  figure {
-    float: right;
-    width: 40%;
-  }
-}
+
+
+
 
 @media screen and (min-width:900px) {
-	.boxes {
+
+  .boxes {
 		flex-wrap: wrap;
 	}
+
 	.boxes li {
 	width: 48%;
 	}
+
+
+  blockquote {
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+
   figure {
-    float: right;
+    margin: auto;
     width: 50%;
   }
+
+  .quotebottom {
+    font-size: 1.4em;
+  }
+
+  nav li {
+    margin-right: 1.5em;
+  }
+
 }
+
+
+
+main {
+  width: 100%;
+}
+
+
+
+
+
+
 
 
 
