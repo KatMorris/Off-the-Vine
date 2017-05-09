@@ -491,6 +491,7 @@ li {
 }
 
 
+
 .headline {
   font-size: 1.2em;
   font-weight: bold;
@@ -547,6 +548,7 @@ header svg {
 
 p {
   padding-left: 1em;
+  line-height: 1.5em;
 }
 
 
@@ -781,9 +783,6 @@ display: block;
 
   }
 
-
-
-
   .headline {
     font-size: 1em;
     font-weight: bold;
@@ -821,7 +820,9 @@ display: block;
   }
 
 
+}
 
+@media screen and (min-width: 700px) {
 
 
 
@@ -836,12 +837,6 @@ display: block;
 
 	}
 
-  header {
-    box-shadow: 5px solid black;
-  }
-
-
-
 }
 
 
@@ -850,6 +845,8 @@ display: block;
   margin: auto;
 }
 
+
+
 @media screen and (min-width: 650px) {
 
 .boxes {
@@ -857,10 +854,14 @@ display: block;
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
-.boxes li {
-		width: 70%;
+
 
 	}
+  figure {
+    margin: auto;
+    width: 50%;
+  }
+
 
 
 
@@ -895,6 +896,15 @@ display: block;
     margin-right: 1.5em;
   }
 
+  h3 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+
 }
 
 
@@ -903,11 +913,15 @@ main {
   width: 100%;
 }
 
-@media screen and (min-width:1100px)
+@media screen and (min-width:1100px) {
 
+}
 
-
-
+.winerack {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
 
 
 
